@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Example</title>
+</head>
+<body>
+<div id='output'>Click to load the Markdown file's content here.</div>
+<script src="function.js"></script>
+<script>
+document.querySelector("#output").addEventListener("click", function() {
+    const element = document.querySelector("#output");
+    if (element) {
+        convertMarkdownToHTML('example.md', 'output');
+    }
+});
+</script>
+</body>
+</html>
+<!-- 
+Markdown Formatting:
+
+- Headings: Use '#' for headings. For example, '# Heading 1' for H1, '## Heading 2' for H2, etc.
+- Links: Use '[link text](URL)' to create hyperlinks. For example, '[GitHub](https://github.com)'.
+- Bold Text: Use '**text**' to make text bold. For example, '**bold**'.
+- Italic Text: Use '*text*' to make text italic. For example, '*italic*'.
+- Images: Use '![alt text](image URL)' to insert images. For example, '![GitHub Logo](/example.png)'.
+- Videos: '![Video](videoURL)' for direct video links and '![Video][videoURL]' for embedded video URLs.
+- Blockquotes: Use '> ' at the beginning of the text to create blockquotes. For example, '> This is a blockquote'.
+- Ordered Lists: Start lines with numbers followed by a period and a space for ordered lists. For example, '1. First item'.
+- Unordered Lists: Use '* ' at the beginning of the line for unordered list items. For example, '* List item'.
+
+Note: This function does not support nested lists or other advanced Markdown features. Keep the Markdown simple for best compatibility.
+-->

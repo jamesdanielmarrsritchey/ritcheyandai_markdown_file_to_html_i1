@@ -1,0 +1,14 @@
+Name: Ritchey&AI Markdown File To HTML
+Implementation: 1
+Version: 1
+Long Identifier: Ritchey&AI Markdown File To HTML i1 v1
+Short Identifier: R&AIMFTHi1v1
+Description: An EXPERIMENTAL Javascript function for loading Markdown into a webpage. Only select elements are supported. Italics are currently not working.
+History:
+ - Project started June 18, 2024.
+ - Version 1 completed June 18, 2024.
+Author: James Daniel Marrs Ritchey
+Licensing: This project is hereby licensed under the Ritchey Permissive License v16.
+Notes:
+ - This project was developed in part by using the tool GitHub Copilot Business.
+ - This program seems to be working as intended, but has had very limited testing. It is still considered experimental at this stage, so don't be surprised if it doesn't work correctly. You should vet the code before using it! For me, making this project was more about learning how to use AI tools than the actual project itself.
